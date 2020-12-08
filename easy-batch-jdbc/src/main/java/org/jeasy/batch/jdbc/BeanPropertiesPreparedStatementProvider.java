@@ -52,7 +52,7 @@ public class BeanPropertiesPreparedStatementProvider implements PreparedStatemen
 
     protected String[] properties;
     protected PropertyDescriptor[] propertyDescriptors;
-    protected final Map<Class<?>, Integer> javaTypesToSqlTypes = new HashMap<>() {{
+    protected final Map<Class<?>, Integer> javaTypesToSqlTypes = new HashMap<Class<?>, Integer>() {{
         put(boolean.class, Types.BOOLEAN);
         put(Boolean.class, Types.BOOLEAN);
         put(byte.class, Types.TINYINT);

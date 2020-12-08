@@ -17,6 +17,10 @@
 
 ***
 
+## Fork 后的变更
+* 支持 Java8 [![](https://jitpack.io/v/cn-src/easy-batch.svg)](https://jitpack.io/#cn-src/easy-batch)
+
+
 ## Project status
 
 As of November 18, 2020, Easy Batch is in maintenance mode. This means only bug fixes will be addressed from now on.
